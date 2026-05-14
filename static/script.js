@@ -118,7 +118,7 @@ function renderForms() {
                 </div>
             </div>
             <h4 style="margin-top: 1rem; margin-bottom: 0.5rem; font-size:0.9rem; color:#64748b;">Monthly Units</h4>
-            <div class="form-grid" style="grid-template-columns: repeat(6, 1fr);" id="months-${index}">
+            <div class="form-grid" style="grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));" id="months-${index}">
             </div>
         `;
         formsContainer.appendChild(formDiv);
