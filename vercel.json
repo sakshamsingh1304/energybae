@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://energybae-api.onrender.com/api/$1"
+      "dest": "https://energybae-mkxe.onrender.com/api/$1"
     },
     {
       "src": "/(.*)",
